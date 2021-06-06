@@ -1,6 +1,6 @@
 package Data;
 
-public class Ejercicio8 {
+public class Ejercicio08 {
     public static void main(String[] args) {
         /*Inicializamos un array con varios string*/
         String[] array = {"A", "b", "c", "D", "e", "F"};

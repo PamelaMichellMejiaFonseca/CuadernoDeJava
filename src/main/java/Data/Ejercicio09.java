@@ -2,7 +2,7 @@ package Data;
 
 import java.util.Scanner;
 
-public class Ejercicio9 {
+public class Ejercicio09 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class Ejercicio9 {
         Integer numero = input.nextInt();
 
         /*Llamamos a la función y mostramos el resultado por pantalla*/
-        Ejercicio9 ejercicio9 = new Ejercicio9();
+        Ejercicio09 ejercicio9 = new Ejercicio09();
         System.out.println("El Factorial " + numero + " es: " + ejercicio9.factorial(numero));
     }
 

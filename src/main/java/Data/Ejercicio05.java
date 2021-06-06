@@ -1,8 +1,8 @@
 package Data;
 
-public class Ejercicio5 {
+public class Ejercicio05 {
     public static void main(String[] args) {
-        Ejercicio5 ejercicio5 = new Ejercicio5();
+        Ejercicio05 ejercicio5 = new Ejercicio05();
 
         /*Mostramos los resultados por pantalla, para dos casos posibles*/
         System.out.println(ejercicio5.getMayor(24, 3));

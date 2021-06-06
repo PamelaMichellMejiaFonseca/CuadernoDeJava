@@ -2,7 +2,7 @@ package Data;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class Ejercicio6 {
         Integer altura = input.nextInt();
 
         /*Llamamos a la función y mostramos el resultado por pantalla*/
-        System.out.println(Ejercicio6.imc(peso, altura));
+        System.out.println(Ejercicio06.imc(peso, altura));
     }
 
     /*Método para calcular el IMC y que devulve un string para cada rango*/

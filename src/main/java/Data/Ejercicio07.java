@@ -2,10 +2,10 @@ package Data;
 
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Ejercicio7 ejercicio7 = new Ejercicio7();
+        Ejercicio07 ejercicio7 = new Ejercicio07();
 
         /*Pedimos al usuario qué operación quiere realizar*/
         System.out.println("¿Qué operación te gustaría hacer? (S; R; P or M; D)");

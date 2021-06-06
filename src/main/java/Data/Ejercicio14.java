@@ -6,7 +6,6 @@ public class Ejercicio14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        /*Pedimos al usuario que escriba un valor entero*/
         System.out.println("Escribe un número entero (>0):");
         int numero = input.nextInt();
         int n = numero;

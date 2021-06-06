@@ -1,8 +1,8 @@
 package Data;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
     public static void main(String[] args) {
-        Ejercicio1 ejercicio1 = new Ejercicio1();
+        Ejercicio01 ejercicio1 = new Ejercicio01();
 
         /*Mostrar el valor de la nueva variable inicializada*/
         System.out.println("Primer valor: " + ejercicio1.getFirstValue());

@@ -1,8 +1,8 @@
 package Data;
 
-public class Ejercicio2 {
+public class Ejercicio02 {
     public static void main(String[] args) {
-        Ejercicio2 ejercicio2 = new Ejercicio2();
+        Ejercicio02 ejercicio2 = new Ejercicio02();
 
         /*Llamamos a cada uno de los métodos*/
         ejercicio2.suma();

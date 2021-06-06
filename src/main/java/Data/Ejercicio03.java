@@ -1,9 +1,9 @@
 package Data;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
     public static void main(String[] args) {
         /*Inicializamos la variable radius con un valor de 10*/
-        Ejercicio3 ejercicio3 = new Ejercicio3(10);
+        Ejercicio03 ejercicio3 = new Ejercicio03(10);
 
         /*Llamamos los métodos y mostramos los resultados por pantalla*/
         System.out.println("El valor de la división es: " + ejercicio3.volumen());
@@ -14,7 +14,7 @@ public class Ejercicio3 {
     private Integer radio;
 
 
-    public Ejercicio3(Integer radio) {
+    public Ejercicio03(Integer radio) {
         this.radio = radio;
     }
 

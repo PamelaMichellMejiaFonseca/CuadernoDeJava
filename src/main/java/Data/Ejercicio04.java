@@ -2,9 +2,9 @@ package Data;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
     public static void main(String[] args) {
-        Ejercicio4 ejercicio4 = new Ejercicio4();
+        Ejercicio04 ejercicio4 = new Ejercicio04();
         Scanner input = new Scanner(System.in);
 
         /*Pedimos al usuario por consola que escriba el peso y la altura*/
