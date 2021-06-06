@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Ejercicio09 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         /*Pedimos un valor entero por consola*/
         System.out.println("Escribe un número");
-        Integer numero = input.nextInt();
+        Integer numero = scanner.nextInt();
 
         /*Llamamos a la función y mostramos el resultado por pantalla*/
         Ejercicio09 ejercicio9 = new Ejercicio09();

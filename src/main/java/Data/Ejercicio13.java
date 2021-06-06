@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Ejercicio13 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         /*Pedimos al usuario por consola que escriba dos valores enteros y los añadimos a dos variables*/
         System.out.println("Escribe un número:");
-        int n = input.nextInt();
+        int n = scanner.nextInt();
         System.out.println("Escribe la potencia del número:");
-        int m = input.nextInt();
+        int m = scanner.nextInt();
         int N = n;
 
         /*Calculamos la pontencia del primer valor elevado al segundo*/

@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Ejercicio07 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         Ejercicio07 ejercicio7 = new Ejercicio07();
 
-        /*Pedimos al usuario qué operación quiere realizar*/
+
         System.out.println("¿Qué operación te gustaría hacer? (S; R; P or M; D)");
-        String symbol = input.nextLine();
+        String symbol = scanner.nextLine();
         /*Pedimos al usuario los valores enteros con los que se harán los cálculos*/
         System.out.println("Escribe el primer número:");
-        Integer primerNumero = input.nextInt();
+        Integer primerNumero = scanner.nextInt();
         System.out.println("Escribe el segundo número:");
-        Integer segundoNumero = input.nextInt();
+        Integer segundoNumero = scanner.nextInt();
 
         /*Realizamos un switch para cada caso, es decir, para cada operación*/
         switch (symbol.toLowerCase()) {
